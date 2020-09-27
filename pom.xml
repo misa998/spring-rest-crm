@@ -16,7 +16,7 @@
  <properties>
 		<springframework.version>5.0.6.RELEASE</springframework.version>
 		
-		<springsecurity.version>5.0.5.RELEASE</springsecurity.version>
+		<springsecurity.version>5.0.16.RELEASE</springsecurity.version>
 		
 		<hibernate.version>5.2.16.Final</hibernate.version>
 		<mysql.connector.version>8.0.21</mysql.connector.version>
@@ -51,7 +51,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.9.5</version>
+			<version>2.11.2</version>
 		</dependency>
 
 		<!-- Spring Security -->

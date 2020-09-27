@@ -30,13 +30,6 @@ import org.springframework.core.env.Environment;
 @EnableTransactionManagement
 @PropertySource({"classpath:persistence-mysql.properties"})
 public class AppConfig implements WebMvcConfigurer {
-
-//	public ViewResolver viewResolver() {
-//		InternalResourceViewResolver irvr = new InternalResourceViewResolver();
-//		irvr.setPrefix("/WEB-INF/view/");
-//		irvr.setSuffix(".jsp");
-//		return irvr;
-//	}
 	
 	@Autowired
 	private Environment env;
